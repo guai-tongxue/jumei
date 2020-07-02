@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>聚美登录</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="../js/jquery-3.4.1.js"></script>
+    <script src="../js/login.js"></script>
+</head>
+<body>
+        <div class="box_top">
+            <h1 class="top_logo"><a href=""></a></h1>
+            <div class="top_right">
+                <a href="" class="one"><img src="" alt=""></a>
+                <a href="" class="two"><img src="" alt=""></a>
+                <a href="" class="three"><img src="" alt=""></a>
+            </div>
+        </div>
+        <div class="box_body">
+            <div class="body_bg"></div>
+            <div class="body_box">
+                <div class="body_box_top">
+                    <span class="login">登陆聚美</span>
+                    <span class="noLogin">还没有聚美账号？<a href="">30秒注册</a></span>
+                </div>
+                <div class="body_box_buoy">
+                    <span class="tab_login_item">
+                        <input type="radio" class="buoy_phone">
+                        <label for="radio_dynamic">手机动态密码登录</label>
+                    </span>
+                    <span class="tab_login_item normal">
+                        <input type="radio" class="buoy_normal">
+                        <label for="radio_dynamic">普通登录</label>
+                    </span>
+                </div>
+                <div class="loginView_box">
+                    <form action="" class="loginView loginViewCurrent">
+                        <div class="body_box_user">
+                            <input type="text" placeholder="请输入手机号码" id="userphone">
+                            <div class="focus_text" style="display: none;">请输入登录名，登录名可能是您的手机号、邮箱或用户名</div>
+                            <div class="invalid" style="display: none;">
+                                <i></i>
+                                <div class="msg">请输入登录名，登录名可能是手机号、邮箱或用户名</div>
+                            </div>
+                        </div>
+                        <div class="body_box_pwd">
+                            <input type="password" placeholder="请输入验证码" id="userquer">
+                            <div class="focus_text" style="display: none;">请输入您的密码，您的密码可能为字母、数字或符号的组合</div>
+                            <div class="invalid" style="display: none;">
+                                <i></i>
+                                <div class="msg">您输入的验证码错误，请核对后重新输入或
+                                    <a href="">重新发送</a>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <form action="" class="loginView">
+                        <div class="body_box_user">
+                            <input type="text" placeholder="已验证手机/邮箱/用户名" id="username">
+                            <div class="focus_text" style="display: none;">请输入登录名，登录名可能是您的手机号、邮箱或用户名</div>
+                            <div class="invalid" style="display: none;">
+                                <i></i>
+                                <div class="msg">请输入登录名，登录名可能是手机号、邮箱或用户名</div>
+                            </div>
+                        </div>
+                        <div class="body_box_pwd">
+                            <input type="password" placeholder="密码" id="userpwd">
+                            <div class="focus_text" style="display: none;">请输入您的密码，您的密码可能为字母、数字或符号的组合</div>
+                            <div class="invalid" style="display: none;">
+                                <i></i>
+                                <div class="msg">您输入的密码错误，请核对后重新输入或
+                                    <a href="">找回密码</a>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="body_box_manual">
+                    <input type="checkbox">&nbsp;自动登录
+                    <a href="" class="fr">忘记密码？</a>
+                </div>
+
+                <div class="body_box_item">
+                    <button class="login_button">立即登录</button>
+                </div>
+                
+
+                <dl class="other-login">
+                    <dt class="other-login-title">你也可以使用以下账号登录</dt>
+                    <dd>
+                        <a onclick="_hmt.push(['_setCustomVar', 2, 'visitor', 'qq', 1]);" href="javascript:;" title="QQ账号" class="qq"></a>
+                        <a onclick="_hmt.push(['_setCustomVar', 2, 'visitor', 'wb', 1]);" href="javascript:;" title="新浪微博账号" class="sina"></a>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+</body>
+</html>

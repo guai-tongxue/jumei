@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/banner.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/later.css">
+    <script src="../js/jquery-3.4.1.js"></script>
+    <script src="../js/jquery.cookie.js"></script>
+    <!-- <script src="../js/parabola.js"></script> -->
+    <script src="../js/Slider.js"></script>
+    <script src="../js/shops.js"></script>
+    
+</head>
+<body>
+    <div class="header">
+        <div class="header_top">
+            <div class="header_top_box">
+                <ul class="header_top_left">
+                    <li>欢迎来到聚美！</li>
+                    <li><a href="">请登录</a></li>
+                    <li><a href="">快速注册</a></li>
+                </ul>
+                <ul class="header_top_right">
+                    <li><a href="">正品保证</a></li>
+                    <li><a href="">订单查询</a></li>
+                    <li><a href="">♥ 收藏的品牌</a></li>
+                    <li class="item_ijumei"><a href="">我的聚美</a>
+                        <div class="sub_nav" >
+                            <ul>
+                                <li><a href="">我的订单</a></li>
+                                <li><a href=""></a>我的现金券</li>
+                                <li><a href=""></a>我的红包</li>
+                                <li><a href=""></a>我的余额</li>
+                                <li><a href=""></a>我的提现退款</li>
+                                <li><a href=""></a>我的收藏</li>
+                                <li><a href=""></a>我的心愿包</li>
+                                <li><a href=""></a>会员中心</li>
+                                <li><a href=""></a>礼品卡兑换</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="">手机聚美</a></li>
+                    <li class="item_ijumei"><a href="">更多</a>
+                        <div class="sub_nav" >
+                            <ul>
+                                <li><a href="">邀请好友</a></li>
+                                <li><a href=""></a>加入收藏</li>
+                                <li><a href=""></a>新浪微博</li>
+                                <li><a href=""></a>聚美微信</li>
+                                <li><a href=""></a>百度贴吧</li>
+                                <li><a href=""></a>腾讯微博</li>
+                                <li><a href=""></a>人人公众主页</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header_center">
+            <h1 class="logo">
+                <a href="" id="home" title="聚美优品" style="background: url(http://p0.jmstatic.com/templates/jumei/images/logo_new_v1.jpg) no-repeat top left;"></a>
+            </h1>
+            <div class="header_searchbox">
+                <form action="">
+                    <input type="text" name="search" class="header_search_input" id="header_search_input">
+                    <button type="submit" class="header_search_btn">搜索</button>
+                </form>
+                <ul class="hot_word">
+                    <li><a href="">保湿</a><s class="line"></s></li>
+                    <li><a href="">面膜</a><s class="line"></s></li>
+                    <li><a href="">洗面奶</a><s class="line"></s></li>
+                    <li><a href="">香水</a><s class="line"></s></li>
+                    <li><a href="">补水</a><s class="line"></s></li>
+                    <li><a href="">眼霜</a><s class="line"></s></li>
+                    <li><a href="">口红</a><s class="line"></s></li>
+                    <li><a href="">护肤套装</a><s class="line"></s></li>
+                    <li><a href="">BB霜</a><s></s></li>
+                </ul>
+            </div>
+            <div id="cart_box" class="cart_box">
+                <a id="cart" class="cart_link" href="" rel="nofollow">
+                    <img src="http://p0.jmstatic.com/assets/cart.gif" width="28" height="28" class="cart_gif">
+                    <span class="text">去购物车结算</span>
+                    <span class="num"></span>
+                    <s class="icon_arrow_right"></s>
+                </a>
+        
+            </div>
+        </div>
+        <div class="header_bottom">
+            <div class="channel_nav_box">
+                <div class="channel_nav_list_wrap">
+                    <ul class="channel_nav_list">
+                        <li class="current"><a href="" class="home">首页</a></li>
+                        <li><a href="">急速免税店</a></li>
+                        <li><a href="">母婴特卖</a></li>
+                        <li><a href="">美妆商城</a></li>
+                        <li><a href="">国际轻奢</a></li>
+                        <li><a href="">服装运动</a></li>
+                        <li><a href="">鞋包配饰</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        (new Slider(["../img/banner1.jpg", "../img/banner2.jpg", "../img/banner3.jpg"])).init();
+    </script>
+    <div class="later">
+        <div class="layout_1090 today_later_main">
+            <h2 class="floor_item_title floor_must_see" id="mustsee"></h2>
+        </div>
+        <div class="today_new_deal">
+            <div class="today_deal_tit">
+                <h2 class="floor_head" id="today_deals">今日上新</h2>
+                <p class="today_deals_tip">每日十点上新</p>
+            </div>
+        </div>
+        <div class="goods_box">
+		
+            <ul>
+                <!-- 假数据 -->
+                
+            </ul>
+    
+        </div>
+    </div>
+
+    
+
+    <div class="ibar" style="z-index: 9990; right: 0px; position: fixed; top: 0px; display: block;">
+        <div class="ibar_main_panel">
+            <ul class="ibar_mp_center">
+                <li class="mpbtn_login"><a href=""><s></s>“登录”</a></li>
+                    <li class="mpbtn_cart sc_pic"><a href="" data-plugin="iBarCart"><s></s>
+                        <span class="text">购物车</span>
+                        <span class="cart_num sc_num">0</span>
+                    </a></li>
+                <div id="ball"></div>
+                <li class="mpbtn_asset"><a href="#" data-judgelogin="1" data-plugin="iBarAsset"><s></s></a>“我的财产”
+                    <div class="mp_tooltip" style="visibility: hidden;">我的财产<s class="icon_arrow_right_black"></s></div>
+                </li>
+                <li class="mpbtn_favorite"><a href="#" data-judgelogin="1" data-plugin="iBarFavorite"><s></s>我的心愿单</a>
+                    <div class="mp_tooltip" style="visibility: hidden;">我的心愿单<s class="icon_arrow_right_black"></s></div>
+                </li>
+                <li class="mpbtn_histroy"><a href="#" data-plugin="iBarHistroy"><s></s>我看过的</a>
+                    <div class="mp_tooltip" style="visibility: hidden;">我看过的<s class="icon_arrow_right_black"></s></div>
+                </li>
+            </ul>
+        </div>
+        <div class="ibar_box">
+            <a href="javascript:;" class="ibar_closebtn" title="关闭"></a>
+                <div class="ibar_cart_group">
+                    <div class="ibar_cart_group_header"></div>
+                    <ul class="ibar_cart_group_items"></ul>
+                </div>
+                <div class="ibar_cart_handler">
+                    <div class="ibar_cart_handler_header">
+                        <span class="ibar_cart_handler_header_left">共 <span class="ibar_cart_total_quantity ibar_pink"></span> 件商品</span>
+                        <span class="ibar_cart_total_price ibar_pink"></span>
+                    </div>
+                    <a href="javascript:;"></a>
+                </div>
+        </div>
+    </div>
+    
+</body>
+</html>
